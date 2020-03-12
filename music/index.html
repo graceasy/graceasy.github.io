@@ -381,6 +381,20 @@
 
       <!-- .entry-content -->
       
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "",
+        appKey: "",
+        path: window.location.pathname,
+        placeholder: "喵～留个印记吧ฅ(๑˙o˙๑)ฅ"
+      })
+  }
+</script>
+
 
 
 
